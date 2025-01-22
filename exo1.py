@@ -1,4 +1,5 @@
 # Demander le nom complet de l'utilisateur
+nom_complet = input("Veuillez entrer votre nom complet:")
 # Demander l'âge de l'utilisateur
 
 # Définir l'année actuelle
