@@ -4,7 +4,7 @@ a = int(input("Entrez a, non nul: "))
 b = int(input("Entrez b: "))
 c = int(input("Entrez c: "))
 
-delta = (b**2 - a*c)
+delta = (b**2 - 4*(a*c))
 #Définitions des cas possibles
 naPasDeSolution = delta < 0
 aUneSeuleSolution = delta == 0
