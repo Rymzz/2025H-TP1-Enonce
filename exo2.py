@@ -8,12 +8,10 @@ if condition:
     nombre_total_barre = 10
     barre_pleine = "❚"
     graphique = ""
-else: 
-    niveau_charge = int(input("Veuillez entrer un niveau de charge valide:"))
-
+    
 for i in range(nombre_total_barre):
     if i < nombre_barre_pleine:
-        graphique += "❚"
+         graphique += "❚"
     else:
         graphique += " "
-print("["+graphique+"]")
+print(f"[{graphique}]")
