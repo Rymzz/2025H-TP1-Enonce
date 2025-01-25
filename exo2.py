@@ -9,6 +9,9 @@ if condition:
     barre_pleine = "❚"
     graphique = ""
     
+else: print("Niveau de charge invalide : ERREUR")
+exit()
+
 for i in range(nombre_total_barre):
     if i < nombre_barre_pleine:
          graphique += "❚"

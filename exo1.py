@@ -6,6 +6,7 @@ nom_complet = input("Veuillez entrer votre nom complet:")
 année_actuelle = 2025
 # Calculer l'année de naissance
 année_naissance = (année_actuelle - âge)
-print("Bienvenue", (nom_complet), "!", "Vous êtes née en", (année_naissance), ".")
+print("Bienvenue", (nom_complet), "!")
+print("Vous êtes né(e) en", (année_naissance), ".")
 # Afficher un message de bienvenue avec le nom complet
 # Afficher l'année de naissance
